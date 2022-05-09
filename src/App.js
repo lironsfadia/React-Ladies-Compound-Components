@@ -12,7 +12,7 @@ function App() {
     <div className="container">
       <header className="display-1">React Ladies Pro Edition | 2022</header>
       <Error fallback={<span>Children Failed!</span>}>
-        <If condition={count === 0}>
+        <If condition={count > 0}>
           <small className="display-3 text-muted">
             Starter Project {count}
           </small>
