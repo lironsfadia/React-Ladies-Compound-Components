@@ -21,9 +21,8 @@ function App() {
       <button onClick={add}>add</button>
       <Error>
         <Switch value={count}>
-          DJJDJD
           <Case match={1}>display for #1</Case>
-          <Case match={3}>display for #2</Case>
+          <Case match={2}>display for #2</Case>
           <Case match={3}>display for #3</Case>
         </Switch>
       </Error>
